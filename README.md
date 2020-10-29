@@ -13,11 +13,11 @@ sed -i 's/SELINUX\=enforcing/SELINUX\=disabled/g' /etc/selinux/config
 
 3、将php-ldap软件包安装到apache服务器中：
 
-# yum install php-ldap -y
+yum install php-ldap -y
 
 4、创建changepassword.php文件并将其放入您的apache根目录：
 
-# vi /var/www/html/changepassword.php
+vi /var/www/html/changepassword.php
 
 修改.php文件中的$ server和$ dn：
 
